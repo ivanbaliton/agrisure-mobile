@@ -18,7 +18,7 @@ class InsuranceHistoryScreen extends StatefulWidget {
 }
 
 class _InsuranceHistoryScreenState extends State<InsuranceHistoryScreen> {
-  static const String baseUrl = 'http://192.168.100.173:8000/api';
+  static const String baseUrl = 'http://192.168.254.121:8000/api';
 
   bool isLoading = true;
   String? errorMessage;
